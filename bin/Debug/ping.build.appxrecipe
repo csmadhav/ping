@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>USER-PC</Machine>
+    <WindowsUser>keshav</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b0011c31-8a7c-4b3c-b770-411bb5bf834a</PackageIdentityName>
+    <IntermediateOutputPath>E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\ping.exe">
+      <PackagePath>ping.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\AdDuplex.WinPhone.Extension\9.0.0.3\References\CommonConfiguration\neutral\AdDuplex.Universal.Controls.WinPhone.XAML.dll">
+      <PackagePath>AdDuplex.Universal.Controls.WinPhone.XAML.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\AdDuplex.WinPhone.Extension\9.0.0.3\References\CommonConfiguration\neutral\AdDuplex.Universal.WinPhone.WinRT.winmd">
+      <PackagePath>AdDuplex.Universal.WinPhone.WinRT.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\AdDuplex.WinPhone.Extension\9.0.0.3\Redist\CommonConfiguration\neutral\AdDuplex.Universal.Controls.WinPhone.XAML\Themes\Generic.xbf">
+      <PackagePath>AdDuplex.Universal.Controls.WinPhone.XAML\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\AdDuplex.WinPhone.Extension\9.0.0.3\Redist\CommonConfiguration\neutral\AdDuplex.Universal.Controls.WinPhone.XAML\InterstitialUserControl.xbf">
+      <PackagePath>AdDuplex.Universal.Controls.WinPhone.XAML\InterstitialUserControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\Blop-Mark_DiAngelo-79054334.mp3">
+      <PackagePath>Assets\Blop-Mark_DiAngelo-79054334.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\how.png">
+      <PackagePath>Assets\how.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\nature_background.jpg">
+      <PackagePath>Assets\nature_background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\Assets\nature_background_dark.jpg">
+      <PackagePath>Assets\nature_background_dark.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\BasicPage1.xbf">
+      <PackagePath>BasicPage1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\BasicPage2.xbf">
+      <PackagePath>BasicPage2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\BasicPage3.xbf">
+      <PackagePath>BasicPage3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\howtoplay.xbf">
+      <PackagePath>howtoplay.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\levelup.xbf">
+      <PackagePath>levelup.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\Playarea.xbf">
+      <PackagePath>Playarea.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\ping.xr.xml">
+      <PackagePath>ping.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\16-05-2015\document\Visual Studio 2013\Projects\ping\ping\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

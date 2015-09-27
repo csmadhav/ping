@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="ping.howtoplay"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ping"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource PhoneAccentBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="PING" Style="{ThemeResource TitleTextBlockStyle}" Margin="2,12,-2.167,0"/>
+            <TextBlock Text="How To Play?" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <RichTextBlock FontSize="20" HorizontalAlignment="Left" Height="200" Margin="0,10,0,0" VerticalAlignment="Top" Width="336">
+                <Paragraph>
+                    <Run Text="Game play is simple: Some numbers will be flashed on screen and then they will become bubbles ,Remember the numbers and their positions, Tap the bubbles in increasing order of the numbers on their bubble to win the level and yes be on time!"/>
+                </Paragraph>
+            </RichTextBlock>
+            <Image Source="Assets/how.png" Margin="10,269,10,92" />
+
+        </Grid>
+    </Grid>
+</Page>
+

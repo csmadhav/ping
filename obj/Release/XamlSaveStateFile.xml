@@ -1,0 +1,7 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\keshav\documents\visual studio 2013\projects\ping\ping\obj\release\intermediatexaml\ping.exe" HashGuid="12ccfac7-9839-79fa-84d8-dfd4995a6125" />
+    <ReferenceAssembly PathName="c:\program files\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\adduplex.winphone.extension\9.0.0.3\references\commonconfiguration\neutral\adduplex.universal.controls.winphone.xaml.dll" HashGuid="8a8b53ca-9ca1-e804-b9e9-be99ad2fa5a5" />
+    <ReferenceAssembly PathName="c:\program files\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\adduplex.winphone.extension\9.0.0.3\references\commonconfiguration\neutral\adduplex.universal.winphone.winrt.winmd" HashGuid="ff025b37-6fda-c558-dd2c-be8cb49ead76" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
